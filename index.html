@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="questionBox" class="question">
+            Question
+        </div>
+        <div class="options">
+            <ul id="ul">
+                <li id="opt1" onclick="button(this)">A.</li>
+                <li id="opt2" onclick="button(this)">B.</li>
+                <li id="opt3" onclick="button(this)">C.</li>
+                <li id="opt4" onclick="button(this)">D.</li>
+            </ul>
+        </div>
+        <div class="score">
+            <button id="btnNext" onclick="nextQuestion()">
+                Soal Berikutnya
+            </button>
+        </div>
+        <div class="score-card">
+            Skor : <span id="score-card-2">0</span>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
