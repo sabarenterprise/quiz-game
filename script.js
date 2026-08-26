@@ -31,12 +31,12 @@ var app = {
             answer: 3
         },
         {
-            q: "Tag HTML yang digunakan untuk membuat hyperlink adalah?",
+            q: "Dalam Python, fungsi len("Hello") akan menghasilkan:",
             options: [
-                "<link>",
-                "<a>",
-                "<href>",
-                "<url>"
+                "4",
+                "5",
+                "6",
+                "error"
             ],
             answer: 2
         },
@@ -51,12 +51,12 @@ var app = {
             answer: 2
         },
         {
-            q: "Simbol komentar satu baris pada JavaScript adalah?",
+            q: "Dalam Java, tipe data untuk menyimpan nilai true atau false adalah:",
             options: [
-                "/* */",
-                "<!-- -->",
-                "//",
-                "#"
+                "int",
+                "char",
+                "boolean",
+                "String"
             ],
             answer: 3
         },
