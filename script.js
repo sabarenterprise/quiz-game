@@ -31,12 +31,12 @@ var app = {
             answer: 3
         },
         {
-            q: "Dalam Python, fungsi len("Hello") akan menghasilkan:",
+            q: "Dalam Java, tipe data yang digunakan untuk menyimpan nilai True dan False adalah?",
             options: [
-                "4",
-                "5",
-                "6",
-                "error"
+                "int",
+                "boolean",
+                "char",
+                "string"
             ],
             answer: 2
         },
@@ -51,12 +51,12 @@ var app = {
             answer: 2
         },
         {
-            q: "Dalam Java, tipe data untuk menyimpan nilai true atau false adalah:",
+            q: "Proses untuk mencari dan memperbaiki kesalahan atau bug pada kode program disebut:",
             options: [
-                "int",
-                "char",
-                "boolean",
-                "String"
+                "Kompilasi",
+                "Looping",
+                "Debugging",
+                "Formatting"
             ],
             answer: 3
         },
